@@ -17,31 +17,31 @@ section
     border-radius: 20px; box-shadow: 0px 0px 10px black;
 
 }
-section>img
+section>picture>img
 {
-    position: relative; left: 100px; right: 100px;
-    border: 1px solid black; border-radius: 30px;
+    position: relative; left: 40px; top: 8px;
+    border: 1px solid black; border-radius: 30px; display: block;
 }
-section>img:hover
+section>picture>img:hover
 {
-    position: relative; left: 100px; right: 100px;
+    position: relative; left: 40px; top: 8px;
     border: 1px solid black; border-radius: 30px;
     box-shadow: 1px 2px 20px black; transition-duration: 0.7s;
 }
 
 h2
 {
-    color: white; text-shadow: 0px 0px 5px black;
+    color: gainsboro; text-shadow: 0px 0px 5px black;
     text-align: center; padding-bottom: 10px;
 }
 h1
 {
-    color: black; font: bold 30px 'Bebas Neue',Georgia, 'Times New Roman', Times, serif;
-    position: relative; left: 406px; top: 0px;
+    color: whitesmoke; font:  30px 'Bebas Neue',Georgia, 'Times New Roman', Times, serif;
+    position: relative; left: 406px; top: 0px; text-shadow: 0px 0px 10px black;
 }
 section>div
 {
-    width: 300px; height: 350px;background-color: white; 
+    width: 300px; height: 350px;background-color: rgba(0, 0, 0, 0.322); 
     border: 4px solid black; border-radius:4px;
     position: relative; left: 420px; top: -280px;
     padding: 10px;
@@ -49,8 +49,9 @@ section>div
 }
 section>div>p
 {
-    color: black; text-align: left; text-indent: 30px;
-    font: 30px  Helvetica, sans-serif;
+    color: white; text-align: left; margin: auto;
+    font: 30px 'Ubuntu',Helvetica, sans-serif; background-color: rgba(0, 0, 0, 0.322);
+    padding: 4px; border-radius: 4px; border: 1px solid white;
 
 }
 #preco1
@@ -59,15 +60,15 @@ section>div>p
     font-size: 30px; font: 30px Georgia, 'Times New Roman', Times, serif;
     padding: 5px; position: relative; left: -5px; top: 10px;
     border-radius: 10px; box-shadow: 1px 0px 10px black; 
-    border: 2px solid black;
+    border: 2px solid black; background-color: white;
 }
 
 #preco2
 {
     color: var(--corPaleta3); 
     font-size: 30px; font: 30px Georgia, 'Times New Roman', Times, serif;
-    padding: 5px; position: relative; left: 32px; top: 10px;
-    border-radius: 30px; text-decoration: line-through;
+    padding: 5px; position: relative; left: 10px; top: 10px; background-color: white;
+    border-radius: 10px; text-decoration: line-through; border: 2px solid black;
 }
 #cart
 {
@@ -75,6 +76,7 @@ section>div>p
     font-size: 30px; font: 30px Georgia, 'Times New Roman', Times, serif;
     padding: 5px; position: relative; left: -5px; top: 92px;
     border-radius: 30px; background-color: var(--corPaleta4);
+    border: 4px solid white;
 }
 #cart:hover
 {
